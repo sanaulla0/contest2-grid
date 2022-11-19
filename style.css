@@ -1,0 +1,40 @@
+.container{
+ display: grid;
+ box-sizing: border-box;
+ grid-template-columns:2fr 1fr 1fr;
+ grid-template-rows:1fr 1fr 2fr;
+ column-gap: 10px;
+ row-gap: 8px;
+ padding: 10px;
+
+}
+.box{
+ background-color: aqua;
+ border: 1px solid black;
+
+}
+#box1{
+ grid-row-start: 1;
+ grid-row-end: 3;
+ height: 210px;
+}
+#box2{
+ height: 100px;
+}
+#box3{
+ height: 100px;
+}
+#box4{
+ height: 100px;
+}
+#box5{
+ height: 100px;
+}
+#box6{
+ height: 200px;
+}
+#box7{
+ grid-column-start: 2;
+ grid-column-end: 4;
+ height: 200px;
+}
